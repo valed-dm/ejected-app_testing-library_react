@@ -44,6 +44,7 @@ describe("Test DisplayText", () => {
 
   it("shows welcome message", async () => {
     //if getUserFullName is removed from here this test fails
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const getUserFullName = getUserMock(userName);
 
     const msg = `Welcome to React testing, ${userFullName}!`;
